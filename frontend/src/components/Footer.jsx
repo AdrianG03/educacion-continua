@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="bg-primary text-white py-4 w-screen">
       <div className="w-screen text-center">
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} Tu Empresa. Todos los derechos
+          &copy; {new Date().getFullYear()} TECNM-ITC. Todos los derechos
           reservados.
         </p>
         <div className="flex justify-center space-x-4 mt-2">
