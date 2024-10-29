@@ -1,0 +1,222 @@
+[
+    {
+      "id": 1,
+      "title": "Programación básica para FPGA, con VHDL y software Quartus Lite",
+      "type": "Técnica",
+      "description": "Que los y las asistentes, adquieran los conocimientos básicos de la programación de sistemas digitales con VHDL, utilizando el software Quartus Prime Lite de Intel y el FPGA de la familia MAX10",
+      "time": "30 horas",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 2,
+      "title": "Curso de Matemáticas",
+      "type": "Técnica",
+      "description": "Proporcionar a los estudiantes principiantes una base sólida en los conceptos esenciales de las matemáticas aplicadas a su área de atención",
+      "time": "30 horas",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 3,
+      "title": "Curso de capacitación de cómo ser un supervisor en Colorimetría",
+      "type": "Empresarial",
+      "description": "Proporcionar a los estudiantes principiantes una base sólida en los conceptos esenciales de las funciones de un supervisor de Colorimetría",
+      "time": "30 horas",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 4,
+      "title": "Fundamentos de Programación con Java",
+      "type": "Computación",
+      "description": "Proporcionar a los estudiantes o programadores principiantes una base sólida en los conceptos escenciales de la programación con Java",
+      "time": "30 horas",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 5,
+      "title": "Fundamentos de Programación con Python",
+      "type": "Computación",
+      "description": "Proporcionar a los estudiantes o programadores principiantes una base sólida en los conceptos escenciales de la programación con Python",
+      "time": "30 horas",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 6,
+      "title": "",
+      "type": "",
+      "description": "",
+      "time": "",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 7,
+      "title": "",
+      "type": "",
+      "description": "",
+      "time": "",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 8,
+      "title": "",
+      "type": "",
+      "description": "",
+      "time": "",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 9,
+      "title": "",
+      "type": "",
+      "description": "",
+      "time": "",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 10,
+      "title": "",
+      "type": "",
+      "description": "",
+      "time": "",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 11,
+      "title": "",
+      "type": "",
+      "description": "",
+      "time": "",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 12,
+      "title": "",
+      "type": "",
+      "description": "",
+      "time": "",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 13,
+      "title": "",
+      "type": "",
+      "description": "",
+      "time": "",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 14,
+      "title": "",
+      "type": "",
+      "description": "",
+      "time": "",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 15,
+      "title": "",
+      "type": "",
+      "description": "",
+      "time": "",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 16,
+      "title": "",
+      "type": "",
+      "description": "",
+      "time": "",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 17,
+      "title": "",
+      "type": "",
+      "description": "",
+      "time": "",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 18,
+      "title": "",
+      "type": "",
+      "description": "",
+      "time": "",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 19,
+      "title": "",
+      "type": "",
+      "description": "",
+      "time": "",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    },
+    {
+      "id": 20,
+      "title": "",
+      "type": "",
+      "description": "",
+      "time": "",
+      "modal": "",
+      "program": "empty",
+      "img": "empty",
+      "path": "/"
+    }
+  ]

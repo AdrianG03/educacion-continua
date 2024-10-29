@@ -5,6 +5,7 @@ import Courses from "./Courses";
 import Catalog from "./Catalog";
 import CallUs from "./CallUs";
 import Login from "./Login";
+import ContentCatalog from "./menuCatalog/ContentCatalog";
 import { Routes, Route } from "react-router-dom";
 
 export default function App() {
@@ -18,6 +19,20 @@ export default function App() {
           <Route path="/catalogo" element={<Catalog />} />
           <Route path="/contacto" element={<CallUs />} />
           <Route path="/login" element={<Login />} />
+          <Route
+            path="/catalogo/1"
+            element={
+              <ContentCatalog
+                title="Purebas"
+                time="prueba"
+                type="prueba"
+                modal="prueba"
+                description="prueba"
+                program="prueba"
+                img="prueba"
+              />
+            }
+          />
         </Routes>
         <Footer />
       </main>
