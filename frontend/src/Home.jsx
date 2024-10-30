@@ -1,6 +1,6 @@
 import Carousel from "./components/Carosuel";
 import Contact from "./components/Contact";
-import work from "./assets/work.png";
+import work from "./assets/teck.jpg";
 import cecyte from "./assets/cecyte.png";
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
           <img
             src={work}
             alt="Icono de trabajadores"
-            className="mx-auto p-10 size-[350px]"
+            className="mx-auto p-10 w-[1000px]"
           />
           <h1 className="text-3xl font-bold">NUESTROS CLIENTES</h1>
           <p className="text-xl font-medium break-words text-justify">
