@@ -11,7 +11,7 @@ export default function Catalog() {
         <div className="flex flex-col gap-4 pb-10">
           {courses.map((course) => (
             <>
-              <Link to="/catalogo/1">
+              <Link to={`/catalogo/${course.id}`} key={course.id}>
                 <div
                   key={course.id} // Agrega una key única para cada elemento
                   className="p-4 border rounded-lg shadow-md bg-white text-black text-justify hover:shadow-lg transition-shadow"

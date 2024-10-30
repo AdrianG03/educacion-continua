@@ -19,20 +19,7 @@ export default function App() {
           <Route path="/catalogo" element={<Catalog />} />
           <Route path="/contacto" element={<CallUs />} />
           <Route path="/login" element={<Login />} />
-          <Route
-            path="/catalogo/1"
-            element={
-              <ContentCatalog
-                title="Purebas"
-                time="prueba"
-                type="prueba"
-                modal="prueba"
-                description="prueba"
-                program="prueba"
-                img="prueba"
-              />
-            }
-          />
+          <Route path="/catalogo/:id" element={<ContentCatalog />} />
         </Routes>
         <Footer />
       </main>
