@@ -45,11 +45,16 @@ export default function ContentCatalog() {
           <p>
             <b className="text-primary">Programa:</b>
           </p>
-          <iframe
-            src={course.program}
-            className="w-full h-[500px] mt-4 border rounded"
-            title="Programa del curso"
-          ></iframe>
+        </div>
+        <div className="flex justify-center mt-10 mb-10">
+          <a
+            href={course.program} // Link al PDF
+            target="_blank" // Abrir en una nueva pestaña
+            rel="noopener noreferrer" // Seguridad adicional
+            className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors"
+          >
+            Obtener Programa
+          </a>
         </div>
       </div>
     </div>
