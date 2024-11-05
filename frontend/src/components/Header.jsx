@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom";
+import logoImage from "../assets/itc.png";
 
 export default function Header() {
   return (
     <header className="bg-primary text-white">
       <div className="h-16 flex items-center px-24 justify-between">
-        <h1 className="text-2xl font-bold">EDUCACION CONTÍNUA</h1>
+        <div className="flex items-center">
+          <img src={logoImage} alt="Logo" className="w-12 h-9 mr-2" />{" "}
+          <h1 className="text-2xl font-bold">EDUCACIÓN CONTÍNUA</h1>
+        </div>
         <ul className="sm:flex space-x-6 hidden items-center font-bold">
           <li>
             <Link to="/" className="hover:underline">

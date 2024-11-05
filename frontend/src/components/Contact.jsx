@@ -22,11 +22,11 @@ export default function Contact() {
                 </div>
                 <a
                   target="blank"
-                  href="https://mail.google.com/"
+                  href="https://mail.google.com"
                   className="text-primary text-sm ml-3 hover:text-[#007bff]"
                 >
                   <small className="block">Gmail</small>
-                  <strong>https://gmail.com</strong>
+                  <strong>cursos.externos@cuautla.tecnm.mx</strong>
                 </a>
               </li>
             </ul>

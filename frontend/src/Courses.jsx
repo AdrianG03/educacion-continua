@@ -1,4 +1,4 @@
-import work from "./assets/work.png";
+import work from "./assets/teck.jpg";
 import { Link } from "react-router-dom";
 
 export default function Courses() {
@@ -20,7 +20,7 @@ export default function Courses() {
         <img
           src={work}
           alt="Icono de trabajadores"
-          className="mx-auto p-10 size-[350px]"
+          className="mx-auto p-10 w-[1000px]"
         />
 
         <div className="bg-cyan-700 w-auto rounded-lg text-center text-white p-7 mb-10">
