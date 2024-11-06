@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Sala Zapata",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 0
+    },
+    {
+        "id": 2,
+        "name": "Sala Morelos",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 1
+    },
+    {
+        "id": 3,
+        "name": "Sala Sor Juana",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 2
+    },
+    {
+        "id": 4,
+        "name": "",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 3
+    },
+    {
+        "id": 5,
+        "name": "",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 4
+    },
+    {
+        "id": 6,
+        "name": "",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 5
+    },
+    {
+        "id": 7,
+        "name": "",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 6
+    },
+    {
+        "id": 8,
+        "name": "",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 7
+    },
+    {
+        "id": 9,
+        "name": "",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 8
+    },
+    {
+        "id": 10,
+        "name": "",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 9
+    }
+]

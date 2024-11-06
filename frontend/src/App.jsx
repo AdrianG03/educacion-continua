@@ -5,6 +5,7 @@ import Courses from "./Courses";
 import Catalog from "./Catalog";
 import CallUs from "./CallUs";
 import Login from "./Login";
+import Facilities from "./Facilities";
 import ContentCatalog from "./menuCatalog/ContentCatalog";
 import { Routes, Route } from "react-router-dom";
 
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/catalogo" element={<Catalog />} />
           <Route path="/contacto" element={<CallUs />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/instalaciones" element={<Facilities />} />
           <Route path="/catalogo/:id" element={<ContentCatalog />} />
         </Routes>
         <Footer />

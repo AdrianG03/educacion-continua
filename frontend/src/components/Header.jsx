@@ -26,6 +26,11 @@ export default function Header() {
             </Link>
           </li>
           <li>
+            <Link to="/instalaciones" className="hover:underline">
+              INSTALACIONES
+            </Link>
+          </li>
+          <li>
             <Link to="/contacto" className="hover:underline">
               CONTÁCTANOS
             </Link>
