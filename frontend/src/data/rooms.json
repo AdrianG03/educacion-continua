@@ -1,22 +1,22 @@
 [
     {
         "id": 1,
-        "name": "Sala Zapata",
-        "ubication": "",
-        "capacity": "",
-        "services": "",
-        "equipment": "",
-        "description": "",
+        "name": "Sala Emiliano Zapata",
+        "ubication": "Edificio H, Planta Baja",
+        "capacity": "98 asistentes",
+        "services": "Sala para conferencias, reuniones y titulaciones",
+        "equipment": "3 pantallas para las presentaciones, 1 computadora de escritorio, 2 micrófonos y una cámara 360°",
+        "description": "Una sala de gran capacidad, lo que la hace apta para reuniones un poco grandes y titulaciones masivas ya que con las 3 pantallas facilitan la presentación de información en las conferencias y reuniones que se lleven a cabo.",
         "imgIndex": 0
     },
     {
         "id": 2,
-        "name": "Sala Morelos",
-        "ubication": "",
-        "capacity": "",
-        "services": "",
-        "equipment": "",
-        "description": "",
+        "name": "Sala José María Morelos y Pavón",
+        "ubication": "Edificio H, Planta Baja",
+        "capacity": "35 asistentes",
+        "services": "Sala para conferencias entre personal docente, reuniones importantes del Instituto Tecnológico de Cuautla, titulaciones y firma de convenios",
+        "equipment": "6 pantallas para las presentaciones, 2 micrófonos, 8 mesas",
+        "description": " Sala donde se llevan a cabo reuniones con personal docente y administrativo para tomar decisiones importantes dentro de la institución, cuando hay pocas titulaciones esta sala es la mejor ya que se presta el espacio para ello",
         "imgIndex": 1
     },
     {

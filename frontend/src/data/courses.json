@@ -174,5 +174,16 @@
       "program": "empty",
       "img": "https://mexwco.com/wp-content/uploads/2021/03/2019051801073559427.png",
       "path": "/"
+    },
+    {
+      "id": 17,
+      "title": "CURSO BÁSICO PARA GUARDIA INTRAMUROS",
+      "type": "Administrativo",
+      "description": "Al término del curso el participante desarrollará las habilidades técnicas, humanas y administrativas, para poder garantizar la satisfacción del cliente en cada uno de los servicios",
+      "time": "30 Horas",
+      "modal": "Presencial",
+      "program": "empty",
+      "img":"https://usercontent.one/wp/www.corporativosegtor.com/wp-content/uploads/2021/05/WhatsApp-Image-2021-05-07-at-12.51.53-PM.jpeg",
+      "path": "/"
     }
   ]

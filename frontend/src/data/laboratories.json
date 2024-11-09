@@ -31,7 +31,7 @@
     },
     {
         "id": 4,
-        "name": "",
+        "name": "CIM",
         "ubication": "",
         "capacity": "",
         "services": "",
@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "name": "",
+        "name": "Laboratorio de Robótica",
         "ubication": "",
         "capacity": "",
         "services": "",
@@ -51,7 +51,7 @@
     },
     {
         "id": 6,
-        "name": "",
+        "name": "Laboratorio de Metrología",
         "ubication": "",
         "capacity": "",
         "services": "",
@@ -61,7 +61,7 @@
     },
     {
         "id": 7,
-        "name": "",
+        "name": "Laboratorio de Procesos",
         "ubication": "",
         "capacity": "",
         "services": "",
@@ -71,7 +71,7 @@
     },
     {
         "id": 8,
-        "name": "",
+        "name": "Laboratorio de Ergonomía",
         "ubication": "",
         "capacity": "",
         "services": "",
@@ -81,7 +81,7 @@
     },
     {
         "id": 9,
-        "name": "",
+        "name": "Laboratorio de Química",
         "ubication": "",
         "capacity": "",
         "services": "",
@@ -91,12 +91,132 @@
     },
     {
         "id": 10,
-        "name": "",
+        "name": "Laboratorio de Física",
         "ubication": "",
         "capacity": "",
         "services": "",
         "equipment": "",
         "description": "",
         "imgIndex": 9
+    },
+    {
+        "id": 11,
+        "name": "Laboratorio de Electrónica",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 10
+    },
+    {
+        "id": 12,
+        "name": "Laboratorio de Circuitos",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 11
+    },
+    {
+        "id": 13,
+        "name": "Laboratorio de Electrónica Analógica",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 12
+    },
+    {
+        "id": 14,
+        "name": "Laboratorio de Control",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 13
+    },
+    {
+        "id": 15,
+        "name": "Laboratorio Electricidad y Magnetismo",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 14
+    },
+    {
+        "id": 16,
+        "name": "Laboratorio Electronica de Potencial",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 15
+    },
+    {
+        "id": 17,
+        "name": "Laboratorio F1 Desarrollo de Software",
+        "ubication": "Edificio F",
+        "capacity": "35 asistentes",
+        "services": "Prácticas de Informática o Computación",
+        "equipment": "Computadoras DELL I5, Memoria RAM 8GB, HDD 1 TB. Windows 10, Office",
+        "description": "Laboratorio dedicado al Desarrollo de Software y Programación Básica, ideal para prácticas de Informática o Computación y principios de programación",
+        "imgIndex": 16
+    },
+    {
+        "id": 18,
+        "name": "Laboratorio F2 Desarrollo de Aplicaciones",
+        "ubication": "Edificio F",
+        "capacity": "30 asistentes",
+        "services": "Prácticas de Informática o Computación",
+        "equipment": "Computadoras DELL I5, Memoria RAM 8GB, HDD 1 TB. Windows 10, Office",
+        "description": "Laboratorio dedicado al Desarrollo de Aplicaciones, ideal para prácticas de Informática y creación de aplicaciones de escritorio y móviles",
+        "imgIndex": 17
+    },
+    {
+        "id": 19,
+        "name": "Laboratorios F3 Redes de Computadoras",
+        "ubication": "Edificio F",
+        "capacity": "32 asistentes",
+        "services": "Prácticas de Informática o Computación",
+        "equipment": "Computadoras DELL I5, Memoria RAM 8GB, HDD 1 TB. Windows 10, Office",
+        "description": "Laboratorio dedicado al Desarrollo de Aplicaciones, ideal para prácticas dedicadas al ámbito de redes de computadoras y practicas relacionadas con servidores",
+        "imgIndex": 18
+    },
+    {
+        "id": 20,
+        "name": "",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 19
+    },
+    {
+        "id": 21,
+        "name": "",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 20
+    },
+    {
+        "id": 22,
+        "name": "",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 21
     }
 ]
