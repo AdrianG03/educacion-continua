@@ -46,6 +46,19 @@ export default function ContentCatalog() {
             <b className="text-primary">Programa:</b>
           </p>
         </div>
+        <div
+          className="border border-gray-300 p-10 shadow-lg mx-auto my-5 bg-white"
+          style={{
+            width: "5.5in",
+            height: "7.5in",
+            boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.15)",
+            borderRadius: "4px",
+            padding: "0.5in", // Reducimos el padding para el tamaño más pequeño
+            fontFamily: "serif",
+          }}
+          dangerouslySetInnerHTML={{ __html: course.path }}
+        />
+
         <div className="flex justify-center mt-10 mb-10">
           <a
             href={course.program} // Link al PDF
