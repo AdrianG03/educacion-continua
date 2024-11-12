@@ -49,14 +49,27 @@ export default function ContentCatalog() {
         <div
           className="border border-gray-300 p-10 shadow-lg mx-auto my-5 bg-white"
           style={{
-            width: "5.5in",
-            height: "7.5in",
+            width: "8.5in",
+            height: "12in",
             boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.15)",
             borderRadius: "4px",
-            padding: "0.5in", // Reducimos el padding para el tamaño más pequeño
+            padding: "0.5in",
             fontFamily: "serif",
           }}
-          dangerouslySetInnerHTML={{ __html: course.path }}
+          dangerouslySetInnerHTML={{
+            __html: `
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <img src="path/to/top-left-logo.png" alt="Top Left Logo" style="height: 50px;" />
+        <img src="path/to/top-right-logo.png" alt="Top Right Logo" style="height: 50px;" />
+      </div>
+      <div style="padding: 20px;">
+        ${course.path}
+      </div>
+      <div style="display: flex; justify-content: center; margin-top: 20px;">
+        <img src="path/to/bottom-logo.png" alt="Bottom Logo" style="height: 50px;" />
+      </div>
+    `,
+          }}
         />
 
         <div className="flex justify-center mt-10 mb-10">
