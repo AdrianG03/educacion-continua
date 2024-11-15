@@ -1,6 +1,9 @@
 import { useParams } from "react-router-dom";
 import { MdCastForEducation } from "react-icons/md";
 import courses from "../data/courses.json";
+import tecnmlogo from "../assets/tecnmlogo.png";
+import patria from "../assets/patria.png";
+import membrete from "../assets/membrete.png";
 
 export default function ContentCatalog() {
   const { id } = useParams();
@@ -50,23 +53,26 @@ export default function ContentCatalog() {
           className="border border-gray-300 p-10 shadow-lg mx-auto my-5 bg-white"
           style={{
             width: "8.5in",
-            height: "12in",
+            minHeight: "12in", // Altura mínima, pero crecerá si el contenido es mayor
             boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.15)",
             borderRadius: "4px",
             padding: "0.5in",
-            fontFamily: "serif",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-between",
+            height: "auto",
           }}
           dangerouslySetInnerHTML={{
             __html: `
       <div style="display: flex; justify-content: space-between; align-items: center;">
-        <img src="path/to/top-left-logo.png" alt="Top Left Logo" style="height: 50px;" />
-        <img src="path/to/top-right-logo.png" alt="Top Right Logo" style="height: 50px;" />
+        <img src="${tecnmlogo}" alt="Top Left Logo" style="height: 80px;" />
+        <img src="${patria}" alt="Top Right Logo" style="height: 90px;" />
       </div>
-      <div style="padding: 20px;">
+      <div style="flex-grow: 1; padding: 20px;">
         ${course.path}
       </div>
       <div style="display: flex; justify-content: center; margin-top: 20px;">
-        <img src="path/to/bottom-logo.png" alt="Bottom Logo" style="height: 50px;" />
+        <img src="${membrete}" alt="Bottom Logo" style="height: 120px;" />
       </div>
     `,
           }}
@@ -74,9 +80,9 @@ export default function ContentCatalog() {
 
         <div className="flex justify-center mt-10 mb-10">
           <a
-            href={course.program} // Link al PDF
-            target="_blank" // Abrir en una nueva pestaña
-            rel="noopener noreferrer" // Seguridad adicional
+            href={course.program}
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors"
           >
             Obtener Programa

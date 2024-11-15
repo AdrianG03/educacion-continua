@@ -57,9 +57,9 @@
         "id": 7,
         "name": "Laboratorio de Automatización",
         "ubication": "Edificio G, Planta Baja",
-        "capacity": "",
-        "services": "",
-        "equipment": "",
+        "capacity": "25 asistentes",
+        "services": "Practicas de control de actuadores y lectura de sensores con dispositivos nehumaticos y plc",
+        "equipment": "Electrovalvulas, plc y fuentes de alimentación",
         "imgIndex": 6
     },
     {
@@ -102,9 +102,9 @@
         "id": 12,
         "name": "Laboratorio de Circuitos Eléctricos",
         "ubication": "Edificio G, Planta Baja",
-        "capacity": "",
-        "services": "",
-        "equipment": "",
+        "capacity": "40",
+        "services": "electronica analogica, digital",
+        "equipment": "fuentes de alimentacion, osciloscopios, generadores de funciones, plc",
         "imgIndex": 11
     },
     {
@@ -129,9 +129,9 @@
         "id": 15,
         "name": "Laboratorio de Nehumática e Hidráulica",
         "ubication": "Edificio G, Planta Baja",
-        "capacity": "",
-        "services": "",
-        "equipment": "",
+        "capacity": "30",
+        "services": "Practicas con dispositivos hidráhulicos nehumaticos plc, motores de corriente alterna y directa",
+        "equipment": "PLC, electrovalvulas, compresor, motres de corriente alterna y directa",
         "imgIndex": 14
     },
     {
@@ -139,8 +139,8 @@
         "name": "Laboratorio de Electronica de Potencial",
         "ubication": "Edificio G, Planta Baja",
         "capacity": "20 asistentes",
-        "services": "",
-        "equipment": "",
+        "services": "Proyectos de investigación y proyectos de residencia",
+        "equipment": "Osciloscopios fuentes de alimentación, paneles solares, motores, multímetros",
         "imgIndex": 15
     },
     {
