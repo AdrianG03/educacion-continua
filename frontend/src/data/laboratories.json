@@ -3,27 +3,27 @@
         "id": 1,
         "name": "Laboratorio del Estudio del Trabajo",
         "ubication": "Edificio I",
-        "capacity": "",
-        "services": "",
-        "equipment": "",
+        "capacity": "20 asistentes",
+        "services": "Se enfoca en analizar y optimizar procesos laborales mediante estudios de tiempos, movimientos y ergonomía. Se diseñan estaciones de trabajo, se evalúan herramientas y condiciones laborales, y se simulan procesos para mejorar la productividad, reducir la fatiga y garantizar la seguridad. Es clave para mejorar la eficiencia y el bienestar en entornos laborales.",
+        "equipment": "Tiene 6 mesas de madera con 20 bancos para que los asistentes estén cómodos",
         "imgIndex": 0
     },
     {
         "id": 2,
         "name": "Laboratorio del Análisis del Trabajo",
         "ubication": "Edificio I",
-        "capacity": "",
-        "services": "",
-        "equipment": "",
+        "capacity": "20 asistentes",
+        "services": "Se dedica a estudiar las tareas y funciones realizadas en un entorno laboral para identificar mejoras en eficiencia, seguridad y productividad. Se analizan procesos, tiempos, movimientos y roles, buscando eliminar desperdicios y optimizar recursos. También se evalúan las condiciones de trabajo y se desarrollan métodos más efectivos para realizar las actividades.",
+        "equipment": "Tiene 6 mesas de madera con 20 bancos para que los asistentes estén cómodos",
         "imgIndex": 1
     },
     {
         "id": 3,
         "name": "Laboratorio de Máquinas Convencionales",
         "ubication": "Edificio I",
-        "capacity": "",
-        "services": "",
-        "equipment": "",
+        "capacity": "24 asistentes",
+        "services": "Se realizan prácticas como mecanizado de piezas, prácticas de ajuste y montaje, medición de tolerancias y mantenimiento básico de maquinaria. Este laboratorio es esencial para aprender fundamentos de manufactura y procesos de fabricación.",
+        "equipment": "2 mesas rotatorias de ensamble, 3 estaciones tipo transportador de banda",
         "imgIndex": 2
     },
     {

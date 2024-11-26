@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Programación básica para FPGA, con VHDL y software Quartus Lite",
-      "type": "Técnica",
+      "type": "Técnico",
       "description": "Que los y las asistentes, adquieran los conocimientos básicos de la programación de sistemas digitales con VHDL, utilizando el software Quartus Prime Lite de Intel y el FPGA de la familia MAX10",
       "time": "30 horas",
       "modal": "Presencial o Virtual",
@@ -14,7 +14,7 @@
     {
       "id": 2,
       "title": "Curso de Matemáticas",
-      "type": "Técnica",
+      "type": "Técnico",
       "description": "Proporcionar a los estudiantes principiantes una base sólida en los conceptos esenciales de las matemáticas aplicadas a su área de atención",
       "time": "30 horas",
       "modal": "Presencial, Mixta o Virtual",
