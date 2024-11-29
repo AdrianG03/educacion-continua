@@ -12,18 +12,17 @@ import ScrollToTop from "./components/ScrollToTop";
 import { Routes, Route } from "react-router-dom";
 
 export default function App() {
-  const mainRef = useRef(null); // Crea un ref para el contenedor principal
+  const mainRef = useRef(null);
 
   return (
     <div className="h-screen max-h-[100vh] overflow-hidden w-screen flex flex-col">
       <Header />
       <main
         id="main-container"
-        ref={mainRef} // Asigna el ref al contenedor
+        ref={mainRef}
         className="max-h-[calc(100vh-5rem)] h-[calc(100vh-5rem)] flex flex-col bg-white text-black overflow-y-auto overflow-x-hidden"
       >
         <ScrollToTop mainRef={mainRef} />{" "}
-        {/* Pasa el ref al componente ScrollToTop */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cursos" element={<Courses />} />

@@ -31,26 +31,26 @@
         "name": "CIM",
         "ubication": "Edificio I",
         "capacity": "21 sistentes (20 observadores, 1 operador)",
-        "services": "",
-        "equipment": "",
+        "services": "Se puedes realizar prácticas de tipo industrial desde generar piezas, en torno, hasta simulaciones de producción en diferentes tipos de máquinas",
+        "equipment": "2 tornos, 1 fresadora, 1 CNC marca EMCO 155(Control numérico computarizado), 1 enlatadora, 1 cinta cortadora",
         "imgIndex": 3
     },
     {
         "id": 5,
         "name": "Laboratorio de Robótica",
         "ubication": "Edificio I",
-        "capacity": "",
-        "services": "",
-        "equipment": "",
+        "capacity": "20 asistentes",
+        "services": "Prácticas referentes con el calculo de espacio y utilización de brazos robóticos de tipo colaborativo",
+        "equipment": "1 brazo robótico con 6 grados de libertad de tipo colaborativo, 1 brazo robótico kuka, butacas individuales para asistentes",
         "imgIndex": 4
     },
     {
         "id": 6,
         "name": "Laboratorio de Metrología",
         "ubication": "Edificio I",
-        "capacity": "",
-        "services": "",
-        "equipment": "",
+        "capacity": "30 asistentes",
+        "services": "Practicas referentes a dimensiones, tolerancias, calibracion de instrumentos, control de calidad, precisión y repetibilidad, entre otros",
+        "equipment": "2 durómetros, mesas para los asistentes",
         "imgIndex": 5
     },
     {
@@ -59,34 +59,34 @@
         "ubication": "Edificio G, Planta Baja",
         "capacity": "25 asistentes",
         "services": "Practicas de control de actuadores y lectura de sensores con dispositivos nehumaticos y plc",
-        "equipment": "Electrovalvulas, plc y fuentes de alimentación",
+        "equipment": "Electrovalvulas, PLC y fuentes de alimentación",
         "imgIndex": 6
     },
     {
         "id": 8,
         "name": "Laboratorio de Ergonomía",
         "ubication": "Edificio I",
-        "capacity": "",
-        "services": "",
-        "equipment": "",
+        "capacity": "40 asistentes",
+        "services": "Se pueden realizar practicas para analizar y optimizar la interacción entre los seres humanos, las herramientas, el entorno y los procesos laborales en áreas como diseño industrial, ingeniería, salud ocupacional, psicología y biomecánica",
+        "equipment": "2 cabinas de procesos y ergonomía, 8 mesas con 5 bancos cada uno",
         "imgIndex": 7
     },
     {
         "id": 9,
         "name": "Laboratorio de Química",
         "ubication": "Edificio I",
-        "capacity": "",
-        "services": "",
-        "equipment": "",
+        "capacity": "36 asistentes",
+        "services": "Ofrece un espacio seguro y equipado para realizar experimentos, análisis y prácticas relacionadas con la química. Estas prácticas pueden enfocarse en diferentes niveles educativos (básico, medio y superior), áreas de investigación o aplicaciones industriales.",
+        "equipment": "Regadera de emergencia y lava ojos, tarja para lavado de materiales, 2 válvulas de agua y de gas por mesa, 6 mesas con espacio para 6 personas, campana de extracción de humo",
         "imgIndex": 8
     },
     {
         "id": 10,
         "name": "Laboratorio de Física",
         "ubication": "Edificio I",
-        "capacity": "",
-        "services": "",
-        "equipment": "",
+        "capacity": "36 asistentes",
+        "services": "Se pueden realizar prácticas referentes a temas de física, toma de asesorías de matemáticas y ciencias en general",
+        "equipment": "6 mesas con 6 bancos cada una para los asistentes, un pizarrón blanco",
         "imgIndex": 9
     },
     {
@@ -103,8 +103,8 @@
         "name": "Laboratorio de Circuitos Eléctricos",
         "ubication": "Edificio G, Planta Baja",
         "capacity": "40",
-        "services": "electronica analogica, digital",
-        "equipment": "fuentes de alimentacion, osciloscopios, generadores de funciones, plc",
+        "services": "Prácticas relacionadas con la electronica analogica y digital",
+        "equipment": "Fuentes de alimentacion, osciloscopios, generadores de funciones y PLC",
         "imgIndex": 11
     },
     {
@@ -130,7 +130,7 @@
         "name": "Laboratorio de Nehumática e Hidráulica",
         "ubication": "Edificio G, Planta Baja",
         "capacity": "30",
-        "services": "Practicas con dispositivos hidráhulicos nehumaticos plc, motores de corriente alterna y directa",
+        "services": "Practicas con dispositivos hidráhulicos, nehumáticos, PLC, motores de corriente alterna y directa",
         "equipment": "PLC, electrovalvulas, compresor, motres de corriente alterna y directa",
         "imgIndex": 14
     },
