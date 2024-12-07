@@ -6,7 +6,7 @@ import img2 from "../assets/laboAssets/img2.jpg";
 import img3 from "../assets/laboAssets/img3.jpg";
 import img4 from "../assets/laboAssets/img4.jpg";
 import img5 from "../assets/laboAssets/img5.jpg";
-import img6 from "../assets/laboAssets/template.jpg";
+import img6 from "../assets/laboAssets/img9.jpg";
 import img7 from "../assets/laboAssets/img7.jpg";
 import img8 from "../assets/laboAssets/img8.jpg";
 import img9 from "../assets/laboAssets/img9.jpg";

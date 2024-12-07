@@ -38,6 +38,14 @@ export default function Facilities() {
           >
             SALAS
           </button>
+          <button
+            onClick={() => handleSectionChange("fields")}
+            className={`flex-grow rounded-lg bg-primary text-white font-bold text-xl hover:bg-blue-800 h-10 ${
+              selectedSection === "fields" ? "bg-blue-800" : ""
+            }`}
+          >
+            EXPLANADAS
+          </button>
         </div>
 
         <div className="mt-10">

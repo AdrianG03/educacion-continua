@@ -13,7 +13,7 @@ export default function MenuCatalog({ setCategory, selectedCategory }) {
 
   return (
     <>
-      <h1 className="text-3xl font-bold">CATÁLOGO</h1>
+      <h1 className="text-3xl font-bold">CATÁLOGO DE CURSOS</h1>
       <p className="text-xl font-medium break-words text-justify">
         Aquí encontrarás información de nuestro catálogo de cursos. Si te
         interesa alguno de ellos y no se encuentra en la lista de cursos

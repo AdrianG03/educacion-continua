@@ -18,13 +18,8 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link to="/cursos" className="hover:underline">
-              CURSOS
-            </Link>
-          </li>
-          <li>
-            <Link to="/catalogo" className="hover:underline">
-              CATÁLOGO
+            <Link to="/informacion" className="hover:underline">
+              INFORMACIÓN
             </Link>
           </li>
           <li>
@@ -40,7 +35,7 @@ export default function Header() {
         </ul>
         <div>
           <Link to="/login" className="hover:underline">
-            <h1 className="font-bold items-center">INICIAR SESIÓN</h1>
+            <h1 className="font-bold items-center">ENCUESTAS</h1>
           </Link>
         </div>
       </div>
