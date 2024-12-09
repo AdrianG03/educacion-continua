@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import logoImage from "../assets/itc.png";
+import logoBlanco from "../assets/logoblanco.png";
 
 export default function Header() {
   return (
@@ -7,6 +8,7 @@ export default function Header() {
       <div className="h-16 flex items-center px-24 justify-between">
         <Link to="/">
           <div className="flex items-center">
+            <img src={logoBlanco} alt="Logo" className="w-8 h-10 mr-2" />{" "}
             <img src={logoImage} alt="Logo" className="w-12 h-9 mr-2" />{" "}
             <h1 className="text-2xl font-bold">EDUCACIÓN CONTÍNUA</h1>
           </div>
@@ -34,8 +36,8 @@ export default function Header() {
           </li>
         </ul>
         <div>
-          <Link to="/login" className="hover:underline">
-            <h1 className="font-bold items-center">ENCUESTAS</h1>
+          <Link to="/encuesta" className="hover:underline">
+            <h1 className="font-bold items-center">ENCUESTA</h1>
           </Link>
         </div>
       </div>

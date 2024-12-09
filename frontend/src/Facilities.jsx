@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Laboratories from "./facilitiesComponents/Laboratories";
 import Rooms from "./facilitiesComponents/Rooms";
+import Fields from "./facilitiesComponents/Fields";
 
 export default function Facilities() {
   const [selectedSection, setSelectedSection] = useState("laboratories");
@@ -49,7 +50,14 @@ export default function Facilities() {
         </div>
 
         <div className="mt-10">
-          {selectedSection === "laboratories" ? <Laboratories /> : <Rooms />}
+          {/* {selectedSection === "laboratories" ? <Laboratories /> : <Rooms />} */}
+          {
+            {
+              laboratories: <Laboratories />,
+              rooms: <Rooms />,
+              fields: <Fields />,
+            }[selectedSection]
+          }
         </div>
       </div>
     </div>

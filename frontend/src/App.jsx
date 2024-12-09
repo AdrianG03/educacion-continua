@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Home from "./Home";
 import Footer from "./components/Footer";
 import CallUs from "./CallUs";
-import Login from "./Login";
+import Survey from "./Survey";
 import Facilities from "./Facilities";
 import ContentCatalog from "./menuCatalog/ContentCatalog";
 import ScrollToTop from "./components/ScrollToTop";
@@ -26,7 +26,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/contacto" element={<CallUs />} />
           <Route path="/informacion" element={<Info />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/encuesta" element={<Survey />} />
           <Route path="/instalaciones" element={<Facilities />} />
           <Route path="/catalogo/:id" element={<ContentCatalog />} />
         </Routes>
