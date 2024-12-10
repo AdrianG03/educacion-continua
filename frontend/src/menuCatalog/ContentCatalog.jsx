@@ -5,9 +5,11 @@ import tecnmlogo from "../assets/tecnmlogo.png";
 import patria from "../assets/patria.png";
 import membrete from "../assets/membrete.png";
 import { jsPDF } from "jspdf";
+import img0 from "../assets/courseAssests/img0.png";
 import html2canvas from "html2canvas";
 
 export default function ContentCatalog() {
+  const images = [img0];
   const { id } = useParams();
   const course = courses.find((course) => course.id === parseInt(id));
 
@@ -93,6 +95,10 @@ export default function ContentCatalog() {
           `,
           }}
         />
+
+        <div>
+          <img src={images[course.index]} alt="" />
+        </div>
 
         <div className="flex justify-center mt-10 mb-10">
           <button
