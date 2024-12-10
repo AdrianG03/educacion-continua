@@ -4,7 +4,7 @@
         "name": "Explanada Bicentenario",
         "ubication": "A un costado del Edificio G",
         "capacity": "200 personas",
-        "measures": "Por definir",
+        "measures": "1080 m2 aproximadamente",
         "description": "Explanada dedicada a eventos al aire libre, la mayoría de índole recreativo, académico y principalmente cívico, ya que se cuenta con un asta bandera en la explanada. Se encuentra a un costado del Edificio G, por lo que es un lugar de fácil acceso para los estudiantes y trabajadores de la universidad.",
         "imgIndex": 0
     },
@@ -13,7 +13,7 @@
         "name": "Explanada Monumental",
         "ubication": "A un costado del Edificio K",
         "capacity": "400 personas",
-        "measures": "Por definir",
+        "measures": "1200 m2 aproximadamente",
         "description": "Es una explanada con mayor capacidad que la Explanada Bicentenario, por lo que es ideal para eventos de mayor magnitud. Ideal para hacer reuniones con mayor cantidad de personas, ferias de ciencias, presentación de proyectos de empresas y meetings",
         "imgIndex": 1
     }

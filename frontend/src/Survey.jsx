@@ -1,11 +1,11 @@
-import tec from "./assets/tec.jpg";
+import teck from "./assets/teck3.jpg";
 
 export default function Survey() {
   return (
     <div
-      className=" min-h-screen py-6 flex flex-col justify-center sm:py-12"
+      className="h-[1000px] py-6 flex flex-col justify-center sm:py-12"
       style={{
-        backgroundImage: `url(${tec})`,
+        backgroundImage: `url(${teck})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

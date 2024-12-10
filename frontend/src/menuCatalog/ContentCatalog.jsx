@@ -6,10 +6,46 @@ import patria from "../assets/patria.png";
 import membrete from "../assets/membrete.png";
 import { jsPDF } from "jspdf";
 import img0 from "../assets/courseAssests/img0.png";
+import img1 from "../assets/courseAssests/img1.png";
+import img2 from "../assets/courseAssests/img2.png";
+import img3 from "../assets/courseAssests/img3.png";
+import img4 from "../assets/courseAssests/img4.png";
+import img5 from "../assets/courseAssests/template.jpg";
+import img6 from "../assets/courseAssests/template.jpg";
+import img7 from "../assets/courseAssests/img7.png";
+import img8 from "../assets/courseAssests/template.jpg";
+import img9 from "../assets/courseAssests/template.jpg";
+import img10 from "../assets/courseAssests/template.jpg";
+import img11 from "../assets/courseAssests/template.jpg";
+import img12 from "../assets/courseAssests/template.jpg";
+import img13 from "../assets/courseAssests/template.jpg";
+import img14 from "../assets/courseAssests/template.jpg";
+import img15 from "../assets/courseAssests/template.jpg";
+import img16 from "../assets/courseAssests/template.jpg";
+import img17 from "../assets/courseAssests/template.jpg";
 import html2canvas from "html2canvas";
 
 export default function ContentCatalog() {
-  const images = [img0];
+  const images = [
+    img0,
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img9,
+    img10,
+    img11,
+    img12,
+    img13,
+    img14,
+    img15,
+    img16,
+    img17,
+  ];
   const { id } = useParams();
   const course = courses.find((course) => course.id === parseInt(id));
 
@@ -36,13 +72,10 @@ export default function ContentCatalog() {
           <MdCastForEducation className="text-4xl" />
           <h1 className="pl-4 text-3xl">{course.title}</h1>
         </div>
+
         <div className="flex justify-center items-center">
-          <div className="w-[400px] h-[250px] m-3">
-            <img
-              src={course.img}
-              alt="Imagen del curso"
-              className="w-[400px] h-[250px]"
-            />
+          <div className="m-3">
+            <img src={images[course.index]} alt="Imagen del curso" />
           </div>
         </div>
         <div className="flex justify-between mx-3 mt-5 mb-5 text-justify text-xl">
@@ -95,10 +128,6 @@ export default function ContentCatalog() {
           `,
           }}
         />
-
-        <div>
-          <img src={images[course.index]} alt="" />
-        </div>
 
         <div className="flex justify-center mt-10 mb-10">
           <button

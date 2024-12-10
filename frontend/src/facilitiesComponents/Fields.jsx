@@ -1,7 +1,7 @@
 import facilities from "../data/fields.json";
 import teck2 from "../assets/laboAssets/template.jpg";
-import img0 from "../assets/laboAssets/template.jpg";
-import img1 from "../assets/laboAssets/template.jpg";
+import img0 from "../assets/fieldsAssets/img0.jpg";
+import img1 from "../assets/fieldsAssets/img1.jpg";
 
 export default function Fields() {
   const images = [img0, img1];
