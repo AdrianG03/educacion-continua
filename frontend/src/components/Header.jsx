@@ -10,7 +10,7 @@ export default function Header() {
     <header className="bg-primary text-white">
       <div className="h-16 flex items-center px-6 md:px-24 justify-between">
         {/* Logo */}
-        <Link to="/">
+        <Link to="/educacion-continua">
           <div className="flex items-center md:w-96">
             <img src={logoBlanco} alt="Logo" className="w-8 h-10 mr-2" />
             <img src={logoImage} alt="Logo" className="w-12 h-9 mr-2" />
@@ -47,7 +47,7 @@ export default function Header() {
         >
           <li>
             <Link
-              to="/yo"
+              to="/educacion-continua"
               className="hover:underline block py-2 md:py-0 px-6 md:px-0"
             >
               INICIO
