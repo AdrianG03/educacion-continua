@@ -12,7 +12,7 @@ const Carrusel = () => {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 7000); // 7000 milisegundos = 7 segundos
+    }, 7000); // 7 segundos
 
     return () => clearInterval(interval); // Limpiar el intervalo al desmontar
   }, [images.length]);
@@ -30,20 +30,20 @@ const Carrusel = () => {
   };
 
   return (
-    <div className="relative w-screen h-1/2">
+    <div className="relative w-full h-[300px] md:h-[500px] lg:h-[600px]">
       {/* Contenedor de la imagen */}
       <div className="overflow-hidden rounded-lg shadow-lg h-full">
         <img
           src={images[currentIndex]}
           alt={`Imagen ${currentIndex + 1}`}
-          className="w-full transition-transform duration-500 ease-in-out transform"
+          className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform"
         />
       </div>
 
       {/* Botón Anterior */}
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 text-white p-2 rounded-full hover:bg-gray-900"
+        className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 text-white p-2 md:p-3 rounded-full hover:bg-gray-900"
       >
         &#8592;
       </button>
@@ -51,7 +51,7 @@ const Carrusel = () => {
       {/* Botón Siguiente */}
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 text-white p-2 rounded-full hover:bg-gray-900"
+        className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 text-white p-2 md:p-3 rounded-full hover:bg-gray-900"
       >
         &#8594;
       </button>
@@ -61,7 +61,7 @@ const Carrusel = () => {
         {images.map((_, index) => (
           <div
             key={index}
-            className={`w-3 h-3 rounded-full ${
+            className={`w-2 h-2 md:w-3 md:h-3 rounded-full ${
               index === currentIndex ? "bg-blue-500" : "bg-gray-300"
             }`}
           />

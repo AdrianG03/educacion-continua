@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "name": "Cinito",
+        "name": "Centro Complementario de Aprendizaje",
         "ubication": "Edificio H, Planta Baja",
         "capacity": "40 asistentes",
         "services": "Ideal para conferencias, proyección de material audiovisual, exposicion de proyectos, actividades recreativas.",
@@ -58,5 +58,65 @@
         "equipment": "8 mesas grandes, 3 mesas pequeñas, 1 juego de bocinas, 1 pizarron blanco y 1 proyector",
         "description": "Sala ideal para la impartición de clases, espacio de asesorías, charlas, reuniones ejecutivas, además de ser adecuado para presentar proyectos e investigaciones",
         "imgIndex": 5
+    },
+    {
+        "id": 7,
+        "name": "Sala de Juntas A",
+        "ubication": "Edificio A",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 6 
+    },
+    {
+        "id": 8,
+        "name": "Sala de Juntas E",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 7
+    },
+    {
+        "id": 9,
+        "name": "Sala de Juntas G",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 8
+    },
+    {
+        "id": 10,
+        "name": "Sala de Juntas J",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 9
+    },
+    {
+        "id": 11,
+        "name": "Sala de Juntas K",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 10
+    },
+    {
+        "id": 12,
+        "name": "Sala de Posgrado",
+        "ubication": "",
+        "capacity": "",
+        "services": "",
+        "equipment": "",
+        "description": "",
+        "imgIndex": 11
     }
 ]
