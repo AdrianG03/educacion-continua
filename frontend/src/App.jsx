@@ -23,7 +23,7 @@ export default function App() {
       >
         <ScrollToTop mainRef={mainRef} />{" "}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/educacion-continua" element={<Home />} />
           <Route path="/contacto" element={<CallUs />} />
           <Route path="/informacion" element={<Info />} />
           <Route path="/encuesta" element={<Survey />} />
