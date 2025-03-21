@@ -47,7 +47,7 @@ export default function Header() {
         >
           <li>
             <Link
-              to="/educacion-continua"
+              to="/yo"
               className="hover:underline block py-2 md:py-0 px-6 md:px-0"
             >
               INICIO
